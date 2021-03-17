@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <!-- General Meta-Data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Carter Zenke</title>
+    <meta name="description" content="Carter Zenke's portfolio.">
+    <meta name="author" content="Carter Zenke">
+
+    <!-- Social Meta-Data -->
+    <meta property="og:title" content="Carter Zenke's Portfolio">
+    <meta property="og:description" content="Carter Zenke's Portfolio">
+    <meta property="og:image" content="/assets/KMI-flag.jpg">
+    <meta property="og:url" content="https://carterzenke.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Carter Zenke's Portfolio">
+    <meta name="twitter:image:alt" content="Carter Zenke's Portfolio">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/type.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700,700i&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <!-- Structure -->
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="canonical" href="https://carterzenke.com">
+  </head>
+  
+  <body>
+    <div class="overflow-wrapper">
+
+      <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="headnavbar">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                <a class="navbar-brand" id="title" href="https://carterzenke.com">
+                    <span style="font-weight: 100">carter zenke</span>
+                </a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link active">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">about</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      </header>
+
+      <main id="homepage" class='container-fluid fadeInQuick'>
+        
+        <section id="homepage-intro">
+
+          <div class="row" id="intro-background-home">
+            <div class="col d-flex align-items-center" style="height: 100vh">
+                <h1 id="title-text"><em>This</em> is learning.</h1>
+            </div>
+            <div class="scrollIndicator"></div>
+          </div>
+
+          <!--<div class="row" id="intro-follow-up">
+            <div class="col" style="padding: 12rem 0.75rem">
+              <h2 class="lead-in-text">And it should be for every child.</h2>
+            </div>
+          </div>-->
+
+        </section>
+
+        <section id="education-beliefs">
+
+          <div class="row">
+            <div class="col">
+              <h3 class="lead-in-text">I am guided by the belief that education should be...</h3>
+            </div>
+          </div>
+
+          <div class="row icon-divider">
+              <h5 id="blob-text-1">playful,</h5>
+              <h5 id="blob-text-2">creative,</h5>
+              <h5 id="blob-text-3">and above all,</h5>
+              <h5 id="blob-text-4">purposeful.</h5>
+              <img src="assets/Blob 1.svg" alt="pink blob in background" class="far-parallax filter-bright-pink" id="blob-1">
+              <img src="assets/Blob 2.svg" alt="blue blob in background" class="medium-parallax filter-bright-blue" id="blob-2">
+              <img src="assets/Blob 3.svg" alt="orange blob in background" class="close-parallax filter-bright-orange" id="blob-4">
+          </div>
+
+          <div class="row">
+              <div class="col">
+                  <h3 class="lead-in-text">Together we can make this new education a reality.</h3>
+              </div>
+          </div>
+
+        </section>
+
+        <section class="row portfolio-wrapper" id="portfolio-navigation">
+          <a href="csbyus.html" class="portfolio-item" id="csbyus">
+            <div class="portfolio-text-wrapper">
+              <h4 class="portfolio-title" id="csbyus-title">CSbyUs</h4>
+              <p class="portfolio-description" id="csbyus-description">Commissioned to design North Carolina's first elementary computer science curriculum.</p>
+            </div>
+          </a>
+          <a href="kmi.html" class="portfolio-item" id="kmi">
+            <div class="portfolio-text-wrapper">
+              <h4 class="portfolio-title" id="kmi-title">KMI</h4>
+              <p class="portfolio-description" id="kmi-description">Five years of partnering with Nepali youth for participatory civic engagement education.</p>
+            </div>
+          </a>
+          <a href="teachhouse.html" class="portfolio-item" id="teachhouse">
+            <div class="portfolio-text-wrapper">
+              <h4 class="portfolio-title" id="teachhouse-title">TeachHouse</h4>
+              <p class="portfolio-description" id="teachhouse-description">Launching Durham's first education technology lab—by teachers, for teachers.</p>
+            </div>
+          </a>
+        </section>
+
+      </main>
+
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+
+</html>

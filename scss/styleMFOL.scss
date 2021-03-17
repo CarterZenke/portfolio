@@ -1,0 +1,92 @@
+$white: #faf5eb;
+$black: #262626;
+
+html, body {
+    color: $black;
+    background-color: $white;
+    scroll-behavior: smooth;
+}
+
+.title-wrapper {
+    margin: auto;
+    text-align: center;
+    color: $white;
+}
+
+.centered {
+    margin: 4rem auto 4rem auto;
+}
+
+.centered img {
+    max-width: 575px;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+    display: block;
+}
+
+.centered p {
+    max-width: 575px;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+}
+
+.centered h3 {
+    max-width: 575px;
+    width: 90%;
+    margin: 2rem auto 1rem auto;
+}
+
+.centered h2 {
+    max-width: 575px;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+
+}
+
+.centered .quote {
+    padding-left: 1rem;
+    border-left: 0.2rem solid $black;
+    max-width: 775px;
+}
+
+.centered iframe {
+    max-width: 575px;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+    padding: 0;
+    display: block;
+}
+
+.centered .thesis {
+    max-width: 775px;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+    display: block;
+    background-color: $black;
+    color: $white;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.spacer {
+    position: relative;
+    height: 1rem;
+}
+
+.section-image {
+    position: relative;
+}
+
+.section-image a {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    color: $white;
+}
+
+twitter-widget {
+    margin: 0 auto 1rem auto !important;
+    max-width: 575px !important;
+}
+

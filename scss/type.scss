@@ -1,0 +1,61 @@
+/*
+
+Modular scale type face setup,
+with responsive functionality.
+
+Base: 1.5em;
+Ratio: 1.333;
+
+Largest base: 1.5em;
+Smallest base; 0.8em (12.8px);
+
+*/
+
+html {
+    font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1440 - 320));
+}
+
+li {
+    font-size: 0.75em;
+    @media (max-width: 1199.98px) {
+        font-size: 1em;
+    }
+}
+
+p {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1.563em;
+}
+
+h4 {
+    font-size: 1.953em;
+    font-family: 'Open Sans', serif;
+}
+
+h3 {
+    font-size: 2.441em;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 3.052em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3.815em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+    @media (max-width: 575.98px) {
+        font-size: 3.4em;
+    }
+}

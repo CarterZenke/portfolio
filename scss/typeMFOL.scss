@@ -1,0 +1,63 @@
+/*
+
+Modular scale type face setup,
+with responsive functionality.
+
+Base: 1.5em;
+Ratio: 1.333;
+
+Largest base: 1.5em;
+Smallest base; 0.8em (12.8px);
+
+*/
+
+html {
+    font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1440 - 320));
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1em;
+    line-height: 175%;
+    margin: 0;
+}
+
+h6 {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+h5 {
+    font-size: 1.563em;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.953em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.441em;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.052em;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.815em;
+    font-family: 'Bebas Neue', sans-serif;
+
+    @media (max-width: 575.98px) {
+        font-size: 3.4em;
+    }
+    margin: 0;
+}
